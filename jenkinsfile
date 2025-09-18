@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         maven 'Maven'   // use the name you configured in Global Tool
-        jdk 'JDK17'
+        jdk 'JDK21'
     }
     stages {
         stage('Checkout') {
